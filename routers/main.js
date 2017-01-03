@@ -3,7 +3,7 @@ var router = express.Router();
 
 router.get('/', function(req, res, next){
 	console.log(req.userInfo);
-	res.render('main/index', {
+	res.render('index', {
 		userInfo: req.userInfo
 	});
 });

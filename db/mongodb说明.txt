@@ -1,3 +1,0 @@
-安装mongodb到d盘
-命令行执行下面语句
-D:\mongodb\bin>mongod --dbpath=E:\test\nodejs\db --port=27018
